@@ -22,7 +22,7 @@ Text Domain:  accelerate-theme-child
     background: none repeat scroll 0 0 #45ac9d;
 }
 
-/* Featured Work */
+/* Front Page - Featured Work */
 .featured-work {
     text-align: center;
     margin-bottom: 3em;
@@ -55,7 +55,7 @@ Text Domain:  accelerate-theme-child
 }
 
 
-/* Blog Posts */
+/* Front Page - Featured Blog Post */
 .blog-post {
     width: 50%;
     float: left;
@@ -81,7 +81,23 @@ Text Domain:  accelerate-theme-child
     text-transform: uppercase;
 }
 
-/*  Case Studies */
+/* Front Page - Footer Social Nav */
+.social-media-navigation li {
+    display: inline-block;
+    list-style: none;
+
+}
+
+.social-media-navigation li a {
+    height: 25px;
+    width: 25px;
+    padding: 10px;
+    color: white;
+    background-color: #3b3b3b;
+    border-radius: 50%;
+}
+
+/*  Case Studies & Case Study Pages */
 
 .case-study {
     clear: both;
