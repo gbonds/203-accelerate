@@ -23,6 +23,7 @@ Text Domain:  accelerate-theme-child
 }
 
 /* Front Page - Featured Work */
+
 .featured-work {
     text-align: center;
     margin-bottom: 3em;
@@ -54,8 +55,8 @@ Text Domain:  accelerate-theme-child
     font-weight: 400;
 }
 
-
 /* Front Page - Featured Blog Post */
+
 .blog-post {
     width: 50%;
     float: left;
@@ -109,6 +110,10 @@ Text Domain:  accelerate-theme-child
     clear: both;
 }
 
+p {
+    margin-bottom: 50px;
+}
+
 aside.case-study-sidebar {
     float: left;
     width: 300px;
@@ -139,4 +144,45 @@ div.case-study-images img {
     margin: 25px 0 25px 50px;
     width: 100%;
     height: auto;
+}
+
+/*  Contact Us Page */
+
+h2 {
+    font-size: 1.75em;
+}
+
+.nf-field-container {
+    display: inline-block;
+    clear: none;
+}
+
+.textbox-container, .email-container {
+    width: 465px;
+}
+
+.email-container {
+    margin-left: 25px;
+}
+
+.textarea-container {
+    width: 960px;
+}
+
+.submit-container {
+    float: right;
+}
+
+#nf-field-4 {
+    float: right;
+    background: #45ac9d;
+    width: 250px;
+}
+
+.ninja-forms-req-symbol {
+    display: none;
+}
+
+.nf-field-label label {
+    font-weight: 300;
 }
